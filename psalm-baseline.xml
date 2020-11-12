@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<files psalm-version="4.1.1@16bfbd9224698bd738c665f33039fade2a1a3977">
+<files psalm-version="3.18.2@19aa905f7c3c7350569999a93c40ae91ae4e1626">
   <file src="src/Acl.php">
     <DocblockTypeContradiction occurrences="4">
       <code>$resource instanceof Resource\ResourceInterface</code>
@@ -99,7 +99,7 @@
       <code>$this-&gt;rules['byResourceId'][$resourceIdCurrent]</code>
       <code>$this-&gt;rules['byResourceId'][$resourceIdCurrent]</code>
     </MixedArrayOffset>
-    <MixedAssignment occurrences="39">
+    <MixedAssignment occurrences="31">
       <code>$child</code>
       <code>$children</code>
       <code>$dfs['stack'][]</code>
@@ -107,8 +107,6 @@
       <code>$inheritId</code>
       <code>$privilege</code>
       <code>$privilege</code>
-      <code>$privilege</code>
-      <code>$privilege</code>
       <code>$resource</code>
       <code>$resource</code>
       <code>$resource</code>
@@ -116,15 +114,9 @@
       <code>$resourceId</code>
       <code>$resourceId</code>
       <code>$resourceId</code>
-      <code>$resourceIdCurrent</code>
-      <code>$resourceIdCurrent</code>
       <code>$role</code>
       <code>$role</code>
       <code>$role</code>
-      <code>$roleIdCurrent</code>
-      <code>$roleIdCurrent</code>
-      <code>$roleIdCurrent</code>
-      <code>$roleIdCurrent</code>
       <code>$roleParent</code>
       <code>$roleParent</code>
       <code>$rule</code>
